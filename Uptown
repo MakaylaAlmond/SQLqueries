@@ -1,0 +1,5 @@
+Film title contains the word Uptown in any position
+
+SELECT film_id, title, description
+FROM film
+WHERE title Like '%Uptown%'
