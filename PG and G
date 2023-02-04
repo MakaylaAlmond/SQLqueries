@@ -1,0 +1,5 @@
+Film rating is either PG or G
+
+SELECT film_id, title, description
+FROM film
+WHERE rating IN ('PG','G')
