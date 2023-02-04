@@ -1,1 +1,1 @@
-
+This file will show additional information on project achievements 3 and 4. This will show the work that has been done by the analysts for employers to view. These achievements will contain SQL queries and Python scripts
