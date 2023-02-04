@@ -1,0 +1,6 @@
+min and max of rental duration per category
+
+SELECT rating, MIN (rental_duration) AS min_rental_duration
+MAX (rental_duration) AS max_rental_duration
+FROM film
+GROUP BY rating
