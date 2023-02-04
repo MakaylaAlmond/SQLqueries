@@ -1,0 +1,7 @@
+Duplicate data from film table
+
+SELECT film_id, release_year, language_id, rental_duration,
+COUNT (*)
+FROM film
+GROUP BY film_id, title, release_year, language_id, rental_duration
+HAVING COUNT (*) > 1
