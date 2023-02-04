@@ -1,0 +1,6 @@
+Rental duration is between 3 and 7 days
+
+SELECT film_id, title, description
+FROM film
+WHERE rental_duration
+BETWEEN 3 AND 7
