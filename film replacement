@@ -1,0 +1,5 @@
+Film replacement cost is less than 14.99
+
+SELECT film_id, title, description
+FROM film
+WHERE replacement_cost < 14.99
