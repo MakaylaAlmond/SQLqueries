@@ -1,0 +1,7 @@
+Duplicate data from customer table 
+
+SELECT customer_id, first_name, last_name, email, address_id,
+COUNT (*)
+FROM customer
+GROUP BY customer_id, frist_name, last_name, email, address_id
+HAVING COUNT (*) > 1
